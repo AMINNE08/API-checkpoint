@@ -1,0 +1,40 @@
+.user-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.user-list h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.user-card {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.user-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-card h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.user-card p {
+    margin: 0.2rem 0;
+    color: #555;
+}
+
+.user-card p strong {
+    color: #000;
+}
